@@ -2,7 +2,7 @@
 #define DOG_H
 
 	/**
-	 * struct dog - defines a new data type
+	 * struct dog - collection of related members
 	 * @name: First member
 	 * @age: Second member
 	 * @owner: Third member
