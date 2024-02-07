@@ -1,12 +1,12 @@
-#include "search_algos.h"
-#include <math.h>
+#include"search_algos.h"
+#include<math.h>
 
 /* remember compiling math.h with gcc requires `-lm` */
 
 size_t min(size_t a, size_t b);
 
 /**
- * min - returns the minimum of two size_t values
+ * min -it returns the minimum of two size_t values
  * @a: first value
  * @b: second value
  *
@@ -18,7 +18,7 @@ size_t min(size_t a, size_t b)
 }
 
 /**
- * jump_search - searches for a value in a sorted array of integers using
+ * jump_search - it searches for a value in a sorted array of integers using
  * a jump search algorithm
  * @array: pointer to first element of array to search
  * @size: number of elements in array
