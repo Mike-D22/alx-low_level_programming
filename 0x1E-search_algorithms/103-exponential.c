@@ -1,11 +1,11 @@
-#include "search_algos.h"
+#include"search_algos.h"
 
 int binary_search_helper(int *array, int value,
 			 size_t low, size_t high);
 size_t min(size_t a, size_t b);
 
 /**
- * min - returns the minimum of two size_t values
+ * min - it returns the minimum of two size_t values
  * @a: first value
  * @b: second value
  *
@@ -17,7 +17,7 @@ size_t min(size_t a, size_t b)
 }
 
 /**
- * binary_search_helper - searches for a value in an integer array using a
+ * binary_search_helper - it searches for a value in an integer array using a
  * binary search algorithm, not guaranteed to return lowest index if `value`
  * appears twice in `array` (modified from `binary_search`)
  * @array: pointer to first element of array to seach
